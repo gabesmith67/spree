@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files        = Dir['LICENSE', 'README.md', 'app/**/*', 'config/**/*', 'lib/**/*', 'db/**/*', 'vendor/**/*']
   s.require_path = 'lib'
 
-  s.add_dependency 'activemerchant', '~> 1.43.1'
+  s.add_dependency 'activemerchant', '~> 1.44.1'
   s.add_dependency 'acts_as_list', '= 0.3.0'
   s.add_dependency 'awesome_nested_set', '~> 3.0.0.rc.3'
   s.add_dependency 'cancancan', '~> 1.8.4'
@@ -29,7 +29,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'httparty', '~> 0.11' # For checking alerts.
   s.add_dependency 'json', '~> 1.7'
   s.add_dependency 'kaminari', '~> 0.15.0'
-  s.add_dependency 'mail', '~> 2.5.4'
   s.add_dependency 'monetize'
   s.add_dependency 'paperclip', '~> 4.2.0'
   s.add_dependency 'paranoia', '~> 2.0'
